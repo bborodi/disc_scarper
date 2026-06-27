@@ -74,27 +74,100 @@ DESKTOP_HEADERS = {
 }
 
 GENERAL_TERMS = [
+    # Household / cleaning / essentials
     "water bottles 24 pack", "sparkling water pack", "mineral water",
-    "phone case", "screen protector", "USB-C cable", "lightning cable",
-    "AA batteries 16 pack", "AAA batteries",
-    "kitchen roll", "toilet roll 9 pack",
-    "laundry pods", "washing up liquid",
-    "coffee pods", "tea bags 80",
-    "shower gel", "shampoo",
-    "hand cream", "face wash",
-    "notebook A5", "ballpoint pens 10",
-    "HDMI cable 2m", "ethernet cable",
-    "microfibre cloth", "cleaning spray",
-    "dog treats", "cat food pouches",
+    "kitchen roll", "toilet roll 9 pack", "toilet roll 24 pack",
+    "laundry pods", "washing up liquid", "fabric softener",
+    "coffee pods", "tea bags 80", "instant coffee",
+    "shower gel", "shampoo", "conditioner", "hand cream", "face wash",
+    "deodorant", "moisturiser", "body lotion", "hand soap", "hand sanitiser",
+    "notebook A5", "ballpoint pens 10", "highlighters", "sticky notes",
+    "microfibre cloth", "cleaning spray", "disinfectant spray", "bin bags",
+    "air freshener", "kitchen sponges", "rubber gloves",
+
+    # Kitchen
+    "air fryer", "slow cooker", "pressure cooker", "rice cooker",
+    "kettle", "toaster", "blender", "food processor", "stand mixer",
+    "hand mixer", "coffee machine", "espresso machine", "milk frother",
+    "microwave", "mini fridge", "wine cooler", "ice maker",
+    "knife set", "chopping board", "kitchen scales", "measuring cups",
+    "non stick pans", "saucepan set", "baking trays", "mixing bowls",
+    "food storage containers", "vacuum sealer", "spice rack",
+    "dish drying rack", "kitchen utensil set", "can opener",
+    "water filter jug", "thermos flask", "lunch box",
+
+    # Living room
+    "throw blanket", "cushion covers", "floor lamp", "table lamp",
+    "led strip lights", "fairy lights", "wall clock", "picture frames",
+    "candle holders", "scented candles", "diffuser", "rug",
+    "curtains blackout", "tv stand", "bookshelf", "storage ottoman",
+    "coffee table", "side table", "shoe rack", "coat rack",
+    "wall mirror", "soft furnishings", "draft excluder",
+
+    # Garden
+    "garden hose", "watering can", "plant pots", "raised garden bed",
+    "garden gloves", "pruning shears", "secateurs", "garden trowel",
+    "lawn mower", "strimmer", "leaf blower", "hedge trimmer",
+    "outdoor solar lights", "string lights outdoor", "bird feeder",
+    "garden furniture cover", "patio heater", "bbq grill", "bbq tools set",
+    "outdoor cushions", "garden parasol", "compost bin", "plant fertiliser",
+    "greenhouse", "garden tools set", "wheelbarrow",
+
+    # Gym / fitness
+    "resistance bands", "dumbbells set", "kettlebell", "yoga mat",
+    "foam roller", "exercise bike", "treadmill", "skipping rope",
+    "pull up bar", "ab roller", "weight bench", "gym gloves",
+    "gym bag", "water bottle gym", "massage gun", "ankle weights",
+    "exercise ball", "jump rope", "gym flooring mats",
+
+    # Office / organisation
+    "desk organiser", "monitor riser", "desk mat", "cable management box",
+    "filing cabinet", "document folders", "whiteboard", "cork board",
+    "desk lamp", "office chair", "standing desk converter", "footrest",
+    "drawer organiser", "storage boxes", "stationery set", "label printer",
+    "paper shredder", "laminator", "calendar planner", "desk pad",
+
+    # Home improvement
+    "tool set", "screwdriver set", "drill driver", "tape measure",
+    "spirit level", "hammer", "pliers set", "socket set",
+    "led bulbs", "extension cable reel", "door draft stopper",
+    "smoke alarm", "carbon monoxide detector", "storage shelving unit",
+    "wall shelves", "door hooks", "curtain rail", "blinds",
+    "doormat", "step ladder", "tool box", "glue gun", "duct tape",
 ]
 
 TECH_TERMS = [
-    "USB cable", "phone case", "screen protector", "HDMI cable",
-    "memory card 32gb", "earphones", "phone charger",
-    "laptop bag", "keyboard", "mouse",
-    "webcam 1080p", "bluetooth speaker",
-    "power bank", "car phone mount",
-    "phone stand", "cable organiser",
+    "USB cable", "USB-C cable", "lightning cable", "phone case",
+    "screen protector", "tempered glass screen protector",
+    "HDMI cable 2m", "ethernet cable", "memory card 32gb", "memory card 128gb",
+    "SD card", "microSD card", "SSD external", "external hard drive",
+    "USB flash drive", "USB hub", "docking station",
+    "earphones", "wireless earbuds", "headphones", "noise cancelling headphones",
+    "phone charger", "wireless charger", "fast charger plug", "multi port charger",
+    "laptop bag", "laptop sleeve", "laptop stand",
+    "keyboard", "wireless keyboard", "mechanical keyboard",
+    "mouse", "wireless mouse", "mouse pad",
+    "webcam 1080p", "webcam 4k", "ring light",
+    "bluetooth speaker", "smart speaker", "power bank", "power bank 20000mah",
+    "phone stand", "tablet stand", "cable organiser", "cable ties",
+    "surge protector", "extension lead", "smart plug", "smart bulb",
+    "graphics card", "GPU", "RAM memory kit", "motherboard",
+    "CPU cooler", "PC case fan", "thermal paste",
+    "monitor", "portable monitor", "monitor arm", "monitor stand",
+    "router", "wifi extender", "mesh wifi system", "network switch",
+    "smartwatch", "fitness tracker", "VR headset",
+    "printer", "printer ink cartridges", "label maker",
+
+    # Camera / recording / equipment
+    "action camera", "GoPro accessories", "tripod", "phone tripod",
+    "camera tripod", "gimbal stabiliser", "selfie stick",
+    "lavalier microphone", "USB microphone", "podcast microphone",
+    "camera lens", "camera lens filter", "camera bag", "camera strap",
+    "memory card reader", "SD card case", "camera cleaning kit",
+    "lighting kit photography", "softbox lighting", "green screen",
+    "DSLR camera", "mirrorless camera", "instant camera", "camera flash",
+    "security camera", "baby monitor camera", "trail camera",
+    "voice recorder", "dictaphone",
 ]
 
 
