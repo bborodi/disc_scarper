@@ -1,0 +1,45 @@
+name: UK Price Error Hunter
+
+on:
+  schedule:
+    - cron: '0 7,9,11,13,15,17,19,21 * * *'
+  workflow_dispatch:
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run price hunter
+        env:
+          GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO:           ${{ secrets.EMAIL_TO }}
+        run: |
+          python uk_price_hunter.py \
+            --threshold 1.00 \
+            --output price_errors \
+            --email \
+            --no-html
+
+      - name: Upload results as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: price-errors-${{ github.run_id }}
+          path: price_errors.csv
+          if-no-files-found: ignore
+          retention-days: 7
